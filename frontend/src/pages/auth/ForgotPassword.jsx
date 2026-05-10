@@ -1,0 +1,1 @@
+import React from "react"; import { Link } from "react-router-dom"; export default function ForgotPassword() { return <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center"}}><div><h2>Forgot Password</h2><Link to="/login">Back to Login</Link></div></div>; }

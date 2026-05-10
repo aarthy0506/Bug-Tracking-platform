@@ -3,34 +3,34 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
 
 // Auth Pages
-import Login from './services/pages/auth/Login';
-import Register from './services/pages/auth/Register';
-import ForgotPassword from './services/pages/auth/ForgotPassword';
+import Login from './pages/auth/Login';
+import Register from './pages/auth/Register';
+import ForgotPassword from './pages/auth/ForgotPassword';
 
 // Admin Pages
-import AdminDashboard from './services/pages/admin/Dashboard';
-import ManageUsers from './services/pages/admin/ManageUsers';
-import ManageProjects from './services/pages/admin/ManageProjects';
-import AdminReports from './services/pages/admin/Reports';
+import AdminDashboard from './pages/admin/Dashboard';
+import ManageUsers from './pages/admin/ManageUsers';
+import ManageProjects from './pages/admin/ManageProjects';
+import AdminReports from './pages/admin/Reports';
 
 // Tester Pages
-import TesterDashboard from './services/pages/tester/Dashboard';
-import CreateBug from './services/pages/tester/CreateBug';
-import MyBugReports from './services/pages/tester/MyBugReports';
-import BugDetail from './services/pages/tester/BugDetail';
+import TesterDashboard from './pages/tester/Dashboard';
+import CreateBug from './pages/tester/CreateBug';
+import MyBugReports from './pages/tester/MyBugReports';
+import BugDetail from './pages/tester/BugDetail';
 
 // Developer Pages
-import DeveloperDashboard from './services/pages/developer/Dashboard';
-import AssignedBugs from './services/pages/developer/AssignedBugs';
-import BugWorkspace from './services/pages/developer/BugWorkspace';
+import DeveloperDashboard from './pages/developer/Dashboard';
+import AssignedBugs from './pages/developer/AssignedBugs';
+import BugWorkspace from './pages/developer/BugWorkspace';
 
 // Manager Pages
-import ManagerDashboard from './services/pages/manager/Dashboard';
-import ProjectTracking from './services/pages/manager/ProjectTracking';
-import Analytics from './services/pages/manager/Analytics';
+import ManagerDashboard from './pages/manager/Dashboard';
+import ProjectTracking from './pages/manager/ProjectTracking';
+import Analytics from './pages/manager/Analytics';
 
-import ProtectedRoute from './services/pages/tester/components/common/ProtectedRoute';
-import Layout from './services/pages/tester/components/layout/Layout';
+import ProtectedRoute from './components/common/ProtectedRoute';
+import Layout from './components/layout/Layout';
 
 function App() {
   const { user } = useAuth();

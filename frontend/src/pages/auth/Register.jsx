@@ -1,0 +1,1 @@
+import React from "react"; import { Link } from "react-router-dom"; export default function Register() { return <div style={{minHeight:"100vh",display:"flex",alignItems:"center",justifyContent:"center"}}><div><h2>Register</h2><Link to="/login">Login</Link></div></div>; }
